@@ -70,6 +70,10 @@ class hello{
         }
 
 
+        //Task:
+        // 1) Create a java program to add two matrices of size 3x3
+        // 2) Calculate the average marks from an array containing marks of all students in Physics using for-each loop
+
 
 
 
