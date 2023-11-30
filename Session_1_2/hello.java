@@ -48,31 +48,67 @@ class hello{
         //     System.out.println(marks[i]);
         // }
 
-        int [] marks ; //1-D Array
-        int [][] flats; // 2-D Array
+        // int [] marks ; //1-D Array
+        // int [][] flats; // 2-D Array
 
-        marks = new int[3];
-        flats = new int[2][3];
+        // marks = new int[3];
+        // flats = new int[2][3];
 
-        flats[0][0] = 101;
-        flats[0][1] = 102;
-        flats[0][2] = 103;
-        flats[1][0] = 201;
-        flats[1][1] = 202;
-        flats[1][2] = 203;
+        // flats[0][0] = 101;
+        // flats[0][1] = 102;
+        // flats[0][2] = 103;
+        // flats[1][0] = 201;
+        // flats[1][1] = 202;
+        // flats[1][2] = 203;
 
-        for(int i = 0 ; i < flats.length; i++){
-            for(int j = 0; j < flats[i].length ; j++){
-                System.out.print(flats[i][j]);
-                System.out.print((" "));
-            }
-            System.out.println("");
-        }
+        // for(int i = 0 ; i < flats.length; i++){
+        //     for(int j = 0; j < flats[i].length ; j++){
+        //         System.out.print(flats[i][j]);
+        //         System.out.print((" "));
+        //     }
+        //     System.out.println("");
+        // }
 
 
         //Task:
         // 1) Create a java program to add two matrices of size 3x3
         // 2) Calculate the average marks from an array containing marks of all students in Physics using for-each loop
+
+        int [][] mat1 = {{1, 2, 3},
+                        {4 , 5, 6},
+                        {7, 8 , 9}};
+
+
+        // int [][] mat2 = {{1, 2, 3},
+        //                 {4 , 5, 6},
+        //                 {7, 8 , 9}};
+
+        // int [][] result = {{0, 0, 0},{0, 0, 0},{0, 0, 0}};
+
+
+        // for(int i = 0; i < mat1.length; i++){
+        //     for (int j = 0; j <mat2[0].length ; j++){
+        //         result[i][j]  = mat1[i][j] + mat2[i][j];
+        //     }
+        // }
+        // for(int i = 0; i < mat1.length; i++){
+        //     for (int j = 0; j <mat2[0].length ; j++){
+        //         System.out.print(result[i][j] + " ");
+        //     }
+        //     System.out.println();
+        // }
+
+        
+        // int [] marks = {100, 45, 78, 34, 23 ,89};
+
+        // for(int i = 0 ; i < marks.length ; i++){
+        //     System.out.println(marks[i]);
+        // }
+
+        // for(int element : marks){
+        //     System.out.println(element);
+        // }
+
 
 
 
