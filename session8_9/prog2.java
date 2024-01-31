@@ -13,7 +13,7 @@
 // default methods - it enables us to add new functionality to existing interfaces
 
 
-package session8;
+package session8_9;
 
 
 public class prog2 {
