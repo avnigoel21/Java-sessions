@@ -2,6 +2,7 @@ package session11_b;
 
 import java.io.File;
 import java.io.FileWriter;
+import java.util.Scanner;
 
 public class files {
     public static void main(String[] args) {
@@ -27,8 +28,40 @@ public class files {
         //     System.out.println(e);
         // }
 
-        // code to delete a file
+        
         // code to read a file
+
+        // File myFile = new File("sample.txt");
+        // try{
+        //     Scanner scn = new Scanner(myFile);
+        //     while(scn.hasNextLine()){
+        //         String line = scn.nextLine();
+        //         System.out.println(line);
+        //     }
+        //     scn.close();
+        // }
+        // catch (Exception e){
+        //     System.out.println(e);
+        // }
+
+        // code to delete a file
+
+        File myFile = new File("sample.txt");
+        try{
+            if(myFile.delete()){
+                
+                System.out.println("file deleted" + myFile.getName());
+            }
+            else{
+                System.out.println("some problem occured");
+            }
+        }
+        catch (Exception e){
+            System.out.println(e);
+        }
+
+
+
 
         
 
