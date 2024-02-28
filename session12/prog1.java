@@ -22,25 +22,27 @@ public class prog1 {
        
 
 
-        //Write a program that allows you to keep accessing an array until a valid index is given
+        // Write a program that allows you to keep accessing an array until a valid index is given
         // if max retrives exceeds 5 print "error"
 
-        // boolean flag = true;
-        // int index;
-        // int i = 0;
-        // while(flag && i < 5){
-        //     try{
-        //         index = scn.nextInt();
-        //         i++;
-        //         System.out.println(a[index]);
-        //         break;
-        //     }
-        //     catch(){
-        //         System.out.println("invalid index");
-        //         i++;
-        //     }
+        boolean flag = true;
+        int index;
+        int i = 0;
+        while(flag && i < 5){
+            try{
+                index = scn.nextInt();
+                i++;
+                System.out.println(a[index]);
+                break;
+            }
+            catch(){
+                System.out.println("invalid index");
+                i++;
+            }
             
-        // }
+        }
+
+        // WRAP THE PROGRAM INSIDE A METHOD WHICH THROWS YOUR EXCEPTION
 
 
         
